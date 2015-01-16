@@ -1,4 +1,4 @@
-"subjectid" "group" "activity" "meanmeasurement" "mean(measurement)"
+"subjectid" "group" "activity" "feature" "meanmeasurement"
 1 "train" "walking" "tBodyAccmeanX" 0.277330758736842
 1 "train" "walking" "tBodyAccmeanY" -0.0173838185273684
 1 "train" "walking" "tBodyAccmeanZ" -0.111148103547368

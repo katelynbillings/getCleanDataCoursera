@@ -68,7 +68,7 @@ RunAnalysis <- function(){
                                   | grepl("std", ignore.case = TRUE, feature)) %>%
                            group_by(subjectid, group, activity, feature) %>%
                            summarize(mean(measurement))
-    names(averageMeasurements)[4] <- "meanmeasurement"
+    names(averageMeasurements)[5] <- "meanmeasurement"
     
     # Return to previous working directory
     setwd("../")
